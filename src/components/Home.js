@@ -1,7 +1,8 @@
 import React from "react";
+import CenterMode from "../SlideTest2";
 
 const Home = () => {
-  return <div>메인 페이지</div>;
+  return <CenterMode />;
 };
 
 export default Home;
