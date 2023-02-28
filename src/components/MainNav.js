@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { Outlet } from "react-router-dom";
-
+import SlideTest2 from '../SlideTest2';
 const CategorisBlock = styled.div`
   display: flex;
   padding: 1rem;
@@ -25,6 +25,9 @@ const MainNav = () => {
         <Category>어플라이</Category>
       </CategorisBlock>
       <Outlet />
+      <div>
+        <SlideTest2 />
+      </div>
     </>
   );
 };
