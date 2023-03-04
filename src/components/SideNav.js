@@ -9,7 +9,7 @@ function SideNav() {
     <Nav>
       <Nav.List>
         <Nav.Item>
-          <Nav.Link to="/" active={isActive("/")}>
+          <Nav.Link to="/intro" active={isActive("/")}>
             소개
           </Nav.Link>
         </Nav.Item>
@@ -30,17 +30,17 @@ function SideNav() {
           </Nav.Link>
           <Nav.List expanded={isActive("/front")}>
             <Nav.Item>
-              <Nav.Link to="/front/eun" active={isActive("/제작팀/eun")}>
+              <Nav.Link to="/front/eun" active={isActive("/front/eun")}>
                 배채은
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link to="/front/ah" active={isActive("/제작팀/ah")}>
+              <Nav.Link to="/front/ah" active={isActive("/front/ah")}>
                 이진아
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link to="/front/hyun" active={isActive("/제작팀/hyun")}>
+              <Nav.Link to="/front/hyun" active={isActive("/front/hyun")}>
                 천승현
               </Nav.Link>
             </Nav.Item>

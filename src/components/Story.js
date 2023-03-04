@@ -1,21 +1,13 @@
 import React from "react";
 import styled, { createGlobalStyle } from "styled-components";
-import SideNav from "./SideNav";
+import Content from "./Content";
+import SideNav3 from "./SideNav3";
 
 export const GlobalStyle = createGlobalStyle`
   body {
     margin: 0;
     background-color: #ffffff;
   }
-`;
-const Main = styled.main`
-  margin: 32px;
-  width: 100%;
-  min-height: 500px;
-  background: #ffffff;
-  color: #4f85eb;
-  border-radius: 8px;
-  text-align: center;
 `;
 
 const Layout = styled.div`
@@ -27,16 +19,14 @@ const Layout = styled.div`
   font-family: sans-serif;
 `;
 
-const Intro = () => {
+const Story = () => {
   return (
     <Layout>
       <GlobalStyle />
-      <SideNav />
-      <Main>
-        <h1>INTRO</h1>
-      </Main>
+      <SideNav3 />
+      <Content />
     </Layout>
   );
 };
 
-export default Intro;
+export default Story;

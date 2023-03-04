@@ -40,6 +40,9 @@ const items = [
   { id: 1, url: imgUrl1 },
   { id: 2, url: imgUrl2 },
   { id: 3, url: imgUrl3 },
+  { id: 4, url: imgUrl1 },
+  { id: 5, url: imgUrl2 },
+  { id: 6, url: imgUrl3 },
 ];
 export default class CenterMode extends Component {
   render() {
@@ -51,7 +54,7 @@ export default class CenterMode extends Component {
       slidesToShow: 3,
       speed: 500,
       autoplay: true,
-      autoplaySpeed: 500,
+      autoplaySpeed: 2500,
       cssEase: "linear",
     };
     return (
