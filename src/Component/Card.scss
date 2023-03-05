@@ -1,0 +1,62 @@
+body {
+    background-size: cover;
+    background-repeat: repeat;
+    background: linear-gradient(rgba(4, 4, 4, 0.95), rgba(0, 0, 0, 0.95));
+    background-position: center;
+  }
+  .card-container {
+    background-color: #1e1b26;
+    margin: 60px auto 0 auto;
+    box-shadow: 5px 5px 115px -14px rgb(59, 58, 58);
+    border-radius: 4px;
+    cursor: pointer;
+    width: 160px;
+    height: 100px;
+    color: rgb(218, 218, 218);
+    .image {
+      width: 100%;
+      height: 200px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      z-index: 111 !important;
+      border-top-left-radius: 4px;
+      border-top-right-radius: 4px;
+      -webkit-mask-image: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        color-stop(0, rgba(0, 0, 0, 1)),
+        color-stop(0.35, rgba(0, 0, 0, 1)),
+        color-stop(0.5, rgba(0, 0, 0, 1)),
+        color-stop(0.65, rgba(0, 0, 0, 1)),
+        color-stop(0.85, rgba(0, 0, 0, 0.6)),
+        color-stop(1, rgba(0, 0, 0, 0))
+      );
+      position: relative;
+    }
+  
+    .text {
+      padding: 0px 5px;
+      text-align: justify;
+      overflow: hidden;
+      h2 {
+        color: rgb(137, 137, 219);
+      }
+    }
+    .summary-row {
+      h5 {
+        color: white;
+      }
+      width: 98%;
+    }
+    .likes {
+      color: #fe4141;
+      font-size: 14px;
+      margin-right: 4px;
+      position: relative;
+      float: left;
+      line-height: 1;
+    }
+  }
+  
