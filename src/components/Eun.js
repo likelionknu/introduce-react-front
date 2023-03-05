@@ -1,10 +1,7 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import styled, { createGlobalStyle } from "styled-components";
 import SideNav from "./SideNav";
-<<<<<<< HEAD
-import Content from "./Content";
-=======
->>>>>>> dd869733c6e49784a358483a0488dd1351983ffa
 
 export const GlobalStyle = createGlobalStyle`
   body {
@@ -12,19 +9,24 @@ export const GlobalStyle = createGlobalStyle`
     background-color: #ffffff;
   }
 `;
-<<<<<<< HEAD
-=======
+
 const Main = styled.main`
   margin: 32px;
   width: 100%;
   min-height: 500px;
   background: #ffffff;
-  color: #4f85eb;
+  color: #0f0e17;
   border-radius: 8px;
   text-align: center;
 `;
->>>>>>> dd869733c6e49784a358483a0488dd1351983ffa
 
+const Horlizn = styled.div`
+  color: black;
+  background-color: black;
+  width: 95%;
+  height: 1px;
+  border: 1px solid black;
+`;
 const Layout = styled.div`
   display: flex;
   justify-content: space-between;
@@ -34,20 +36,25 @@ const Layout = styled.div`
   font-family: sans-serif;
 `;
 
-const Intro = () => {
+const Eun = () => {
   return (
     <Layout>
       <GlobalStyle />
       <SideNav />
-<<<<<<< HEAD
-      <Content />
-=======
       <Main>
-        <h1>INTRO</h1>
+        <h2>제작팀</h2>
+        <Horlizn></Horlizn>
+        <img src="../img/ch.png" alt="채은" width="250px" />
+        <p>배채은</p>
+        <Link
+          to="https://ripe-launch-04b.notion.site/3463103e0809490eadfeb060118f01bd"
+          target="_blank"
+        >
+          👉 노력걸 채은의 자기소개가 궁금하다면?
+        </Link>
       </Main>
->>>>>>> dd869733c6e49784a358483a0488dd1351983ffa
     </Layout>
   );
 };
 
-export default Intro;
+export default Eun;

@@ -9,7 +9,11 @@ function SideNav3() {
     <Nav>
       <Nav.List>
         <Nav.Item>
+<<<<<<< HEAD
           <Nav.Link to="/" active={isActive("/")}>
+=======
+          <Nav.Link to="/promote" active={isActive("/")}>
+>>>>>>> dd869733c6e49784a358483a0488dd1351983ffa
             홍보
           </Nav.Link>
         </Nav.Item>

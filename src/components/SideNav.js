@@ -9,7 +9,11 @@ function SideNav() {
     <Nav>
       <Nav.List>
         <Nav.Item>
+<<<<<<< HEAD
           <Nav.Link to="/" active={isActive("/")}>
+=======
+          <Nav.Link to="/intro" active={isActive("/")}>
+>>>>>>> dd869733c6e49784a358483a0488dd1351983ffa
             소개
           </Nav.Link>
         </Nav.Item>
@@ -30,17 +34,29 @@ function SideNav() {
           </Nav.Link>
           <Nav.List expanded={isActive("/front")}>
             <Nav.Item>
+<<<<<<< HEAD
               <Nav.Link to="/front/eun" active={isActive("/제작팀/eun")}>
+=======
+              <Nav.Link to="/front/eun" active={isActive("/front/eun")}>
+>>>>>>> dd869733c6e49784a358483a0488dd1351983ffa
                 배채은
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
+<<<<<<< HEAD
               <Nav.Link to="/front/ah" active={isActive("/제작팀/ah")}>
+=======
+              <Nav.Link to="/front/ah" active={isActive("/front/ah")}>
+>>>>>>> dd869733c6e49784a358483a0488dd1351983ffa
                 이진아
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
+<<<<<<< HEAD
               <Nav.Link to="/front/hyun" active={isActive("/제작팀/hyun")}>
+=======
+              <Nav.Link to="/front/hyun" active={isActive("/front/hyun")}>
+>>>>>>> dd869733c6e49784a358483a0488dd1351983ffa
                 천승현
               </Nav.Link>
             </Nav.Item>
