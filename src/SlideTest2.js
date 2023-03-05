@@ -54,7 +54,11 @@ export default class CenterMode extends Component {
       slidesToShow: 3,
       speed: 500,
       autoplay: true,
+<<<<<<< HEAD
+      autoplaySpeed: 500,
+=======
       autoplaySpeed: 2500,
+>>>>>>> dd869733c6e49784a358483a0488dd1351983ffa
       cssEase: "linear",
     };
     return (

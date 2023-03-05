@@ -1,6 +1,10 @@
 import React from "react";
 import styled, { createGlobalStyle } from "styled-components";
 import SideNav from "./SideNav";
+<<<<<<< HEAD
+import Content from "./Content";
+=======
+>>>>>>> dd869733c6e49784a358483a0488dd1351983ffa
 
 export const GlobalStyle = createGlobalStyle`
   body {
@@ -8,6 +12,8 @@ export const GlobalStyle = createGlobalStyle`
     background-color: #ffffff;
   }
 `;
+<<<<<<< HEAD
+=======
 const Main = styled.main`
   margin: 32px;
   width: 100%;
@@ -17,6 +23,7 @@ const Main = styled.main`
   border-radius: 8px;
   text-align: center;
 `;
+>>>>>>> dd869733c6e49784a358483a0488dd1351983ffa
 
 const Layout = styled.div`
   display: flex;
@@ -32,9 +39,13 @@ const Intro = () => {
     <Layout>
       <GlobalStyle />
       <SideNav />
+<<<<<<< HEAD
+      <Content />
+=======
       <Main>
         <h1>INTRO</h1>
       </Main>
+>>>>>>> dd869733c6e49784a358483a0488dd1351983ffa
     </Layout>
   );
 };

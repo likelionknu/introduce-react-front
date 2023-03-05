@@ -25,6 +25,8 @@ const App = () => {
           <Route path="/intro" element={<Intro />} />
           <Route path="/track" element={<Track />} />
           <Route path="/promote" element={<Promote />} />
+<<<<<<< HEAD
+=======
           <Route path="/sns" element={<Sns />} />
           <Route path="/sns/@likelion.knu" element={<Insta />} />
           <Route path="/sns/knulikelion" element={<FaceBook />} />
@@ -35,6 +37,7 @@ const App = () => {
           <Route path="/front/ah" element={<Ah />} />
           <Route path="/front/hyun" element={<Hyun />} />
           <Route path="/vision" element={<Vision />} />
+>>>>>>> dd869733c6e49784a358483a0488dd1351983ffa
         </Route>
       </Routes>
     </>
