@@ -1,0 +1,35 @@
+{
+    "items": [
+        {
+            "title": "이진아",
+            "image": "../img/1.png",
+            "setid" : "1",
+            "department" : "ICT공학부",
+            "hobby" : "노래 듣기, 노래 부르기",
+            "subtitle": "<b>Front-End</b>",
+            "pubDate": "21",
+            "userRating": "ENTP"
+          },
+          {
+            "title": "천승현",
+            "image": "../img/1.png",
+            "setid" : "2",
+            "department" : "소프트웨어응용학부",
+            "hobby" : "영화, 드라마, 여행",
+            "subtitle": "<b>Front-End</b>",
+            "pubDate": "18",
+            "userRating": "INTP"
+          },
+          {
+            "title": "배채은",
+            "image": "../img/1.png",
+            "setid" : "3",
+            "department" : "ICT공학부",
+            "hobby" : "photograph, traveling",
+            "subtitle": "<b>Front-End</b>",
+            "pubDate": "21",
+            "userRating": "INFJ"
+          }
+          
+    ]
+  }

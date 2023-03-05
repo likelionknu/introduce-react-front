@@ -8,14 +8,16 @@ import Track from "./components/Track";
 
 const App = () => {
   return (
-    <Routes>
-      <Route path="/" element={<MainNav />}>
-        <Route index element={<Home />} />
-        <Route path="/intro" element={<Intro />} />
-        <Route path="/track" element={<Track />} />
-        <Route path="/promote" element={<Promote />} />
-      </Route>
-    </Routes>
+    <>
+      <Routes>
+        <Route path="/" element={<MainNav />}>
+          <Route index element={<Home />} />
+          <Route path="/intro" element={<Intro />} />
+          <Route path="/track" element={<Track />} />
+          <Route path="/promote" element={<Promote />} />
+        </Route>
+      </Routes>
+    </>
   );
 };
 
