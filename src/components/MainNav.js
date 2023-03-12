@@ -10,10 +10,10 @@ const menuOpenFrames = keyframes`
       height: 0px;
     }
     50% {
-      height: 50px;
+      height: 4vw;
     }
     100% {
-      height: 100px;
+      height: 7.5vw;
     }
 `;
 const menuCloseFrames = keyframes`
@@ -30,7 +30,9 @@ const menuCloseFrames = keyframes`
 
 const CategorisBlock = styled.div`
   display: flex;
-  padding: 1.5rem 1.5rem;
+  justify-content: center;
+  padding: 1.5rem 2rem;
+  font-size: 1.5vw;
 `;
 const Category = styled(Link)`
   display: flex;
@@ -44,28 +46,28 @@ const Category = styled(Link)`
   }
 `;
 const RightArrow = styled(BsArrowUpRightCircleFill)`
-  padding-top: 5px;
   margin-left: 10px;
   color: lightgray;
-  width: 13px;
+  width: 1.2vw;
+  height: 2vw;
 `;
 const MainImg = styled.img`
-  width: 45px;
-  height: 30px;
+  width: 70px;
+  height: 50px;
 `;
 const MenuIcon = styled(TbAlignCenter)`
-  height: 20px;
+  height: 2vw;
   color: #4f85eb;
-  width: 20px;
+  width: 6vw;
 `;
 
 // 드롭메뉴 (전체큰창)
 const Menu = styled.div`
   position: absolute;
   z-index: 5;
-  top: 60px;
-  left: 25%;
-  width: 55%;
+  top: 75px;
+  left: 30%;
+  width: 50%;
   background: rgba(79, 133, 235, 0.5);
   &.open {
     animation: ${menuOpenFrames} 0.3s linear forwards;
@@ -86,8 +88,8 @@ const MenuList = styled(Link)`
   color: black;
 `;
 const MenuItem = styled(Link)`
-  font-size: 11px;
-  margin-top: 7px;
+  font-size: 1vw;
+  margin-top: 4px;
   color: black;
   text-decoration: none;
   &:hover {
@@ -128,13 +130,12 @@ const MainNav = () => {
             <MenuItem to="/vision">-우리의 비전</MenuItem>
           </MenuList>
           <MenuList>
-            <MenuItem>-프론트엔드</MenuItem>
-            <MenuItem>-백엔드</MenuItem>
-            <MenuItem>-디자인</MenuItem>
+            <MenuItem to="frontend">-프론트엔드</MenuItem>
+            <MenuItem to="back">-백엔드</MenuItem>
+            <MenuItem to="design">-디자인</MenuItem>
           </MenuList>
           <MenuList>
-            <MenuItem to="/sns/@likelion.knu">-인스타그램</MenuItem>
-            <MenuItem>-페이스북</MenuItem>
+            <MenuItem to="sns">-SNS</MenuItem>
             <MenuItem>-스토리</MenuItem>
           </MenuList>
           <MenuList to="https://knu-likelion.org/" target="_blank">

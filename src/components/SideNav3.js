@@ -18,18 +18,6 @@ function SideNav3() {
           <Nav.Link to="/sns" active={isActive("/sns")}>
             SNS
           </Nav.Link>
-          <Nav.List expanded={isActive("/sns")}>
-            <Nav.Item>
-              <Nav.Link to="/sns/@likelion.knu" active={isActive("/sns/insta")}>
-                INSTAGRAM
-              </Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-              <Nav.Link to="/sns/knulikelion" active={isActive("/sns/fabook")}>
-                FACEBOOK
-              </Nav.Link>
-            </Nav.Item>
-          </Nav.List>
         </Nav.Item>
         <Nav.Item>
           <Nav.Link to="/story" active={isActive("/story")}>

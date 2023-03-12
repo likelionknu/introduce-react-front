@@ -2,9 +2,12 @@ import React from "react";
 import { Route, Routes } from "react-router-dom";
 import About from "./components/About";
 import Ah from "./components/Ah";
+import BackEnd from "./components/BackEnd";
+import Design from "./components/Design";
 import Eun from "./components/Eun";
 import FaceBook from "./components/FaceBook";
 import Front from "./components/Front";
+import FrontEnd from "./components/FrontEnd";
 import Home from "./components/Home";
 import Hyun from "./components/Hyun";
 import Insta from "./components/Insta";
@@ -14,6 +17,7 @@ import Promote from "./components/Promote";
 import Sns from "./components/Sns";
 import Story from "./components/Story";
 import Track from "./components/Track";
+import Tree from "./components/Tree";
 import Vision from "./components/Vision";
 
 const App = () => {
@@ -35,6 +39,10 @@ const App = () => {
           <Route path="/front/ah" element={<Ah />} />
           <Route path="/front/hyun" element={<Hyun />} />
           <Route path="/vision" element={<Vision />} />
+          <Route path="/frontend" element={<FrontEnd />} />
+          <Route path="/back" element={<BackEnd />} />
+          <Route path="/design" element={<Design />} />
+          <Route path="/tree" element={<Tree />} />
         </Route>
       </Routes>
     </>

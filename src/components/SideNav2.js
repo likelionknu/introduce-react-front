@@ -15,7 +15,7 @@ function SideNav2() {
         </Nav.Item>
         <Nav.Separator />
         <Nav.Item>
-          <Nav.Link to="front" active={isActive("/front")}>
+          <Nav.Link to="frontend" active={isActive("/frontend")}>
             FRONT-END
           </Nav.Link>
         </Nav.Item>
