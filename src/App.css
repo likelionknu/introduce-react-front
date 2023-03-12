@@ -36,3 +36,7 @@
     transform: rotate(360deg);
   }
 }
+@font-face {
+  font-family: "font";
+  src: url("./font/The Jamsil OTF 5 Bold.otf");
+}

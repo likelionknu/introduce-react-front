@@ -125,7 +125,7 @@ const MainNav = () => {
         <Menu className={isMenu ? "open" : "close"}>
           <MenuList>
             <MenuItem to="/about">-멋쟁이 사자처럼</MenuItem>
-            <MenuItem>-운영진 조직도</MenuItem>
+            <MenuItem to="tree">-운영진 조직도</MenuItem>
             <MenuItem to="/front">-제작팀</MenuItem>
             <MenuItem to="/vision">-우리의 비전</MenuItem>
           </MenuList>
@@ -136,7 +136,7 @@ const MainNav = () => {
           </MenuList>
           <MenuList>
             <MenuItem to="sns">-SNS</MenuItem>
-            <MenuItem>-스토리</MenuItem>
+            <MenuItem to="story">-스토리</MenuItem>
           </MenuList>
           <MenuList to="https://knu-likelion.org/" target="_blank">
             <MenuItem to="https://knu-likelion.org/" target="_blank">

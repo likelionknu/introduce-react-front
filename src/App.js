@@ -19,6 +19,10 @@ import Story from "./components/Story";
 import Track from "./components/Track";
 import Tree from "./components/Tree";
 import Vision from "./components/Vision";
+import First from "./group/First";
+import Second from "./group/Second";
+import Third from "./group/Third";
+import Fourth from "./group/Fourth";
 
 const App = () => {
   return (
@@ -30,6 +34,7 @@ const App = () => {
           <Route path="/track" element={<Track />} />
           <Route path="/promote" element={<Promote />} />
           <Route path="/sns" element={<Sns />} />
+          <Route path="/tree" element={<Tree />} />
           <Route path="/sns/@likelion.knu" element={<Insta />} />
           <Route path="/sns/knulikelion" element={<FaceBook />} />
           <Route path="/story" element={<Story />} />
@@ -42,7 +47,11 @@ const App = () => {
           <Route path="/frontend" element={<FrontEnd />} />
           <Route path="/back" element={<BackEnd />} />
           <Route path="/design" element={<Design />} />
-          <Route path="/tree" element={<Tree />} />
+          {/* <Route path="/tree" element={<Tree />} /> */}
+          <Route path="/first" element={<First />} />
+          <Route path="/second" element={<Second />} />
+          <Route path="/third" element={<Third />} />
+          <Route path="/fourth" element={<Fourth />} />
         </Route>
       </Routes>
     </>

@@ -1,6 +1,10 @@
 import React from "react";
 import styled, { createGlobalStyle } from "styled-components";
 import { Link } from "react-router-dom";
+import img1 from "../img/insta4.png";
+import img2 from "../img/facebook.png";
+import img3 from "../img/git.png";
+import img4 from "../img/notion.png";
 import SideNav3 from "./SideNav3";
 
 export const GlobalStyle = createGlobalStyle`
@@ -49,8 +53,8 @@ const Sns = () => {
           }}
         />
         <div>
-          <ImgStyle src="../img/insta4.png" />
-          <ImgStyle src="../img/facebook.png" />
+          <ImgStyle src={img1} />
+          <ImgStyle src={img2} />
         </div>
         <h4>
           <br />
@@ -94,8 +98,8 @@ const Sns = () => {
           }}
         />
         <div>
-          <ImgStyle src="../img/git.png" />
-          <ImgStyle src="../img/notion.png" />
+          <ImgStyle src={img3} />
+          <ImgStyle src={img4} />
         </div>
         <h4>
           <br />
